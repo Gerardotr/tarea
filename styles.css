@@ -1,0 +1,111 @@
+.main {
+  background-color: #f9f9f9;
+  height: 1000px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+  height: 50px;
+  width: 50px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.language {
+  padding: 10px;
+  border-radius: 8%;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.language-text {
+  font-size: 12px;
+  color: gray;
+  align-items: center;
+  flex-direction: row;
+  max-width: 100%;
+  justify-content: center;
+}
+.search {
+  background-color: #ffffff;
+  width: 50px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+}
+.card-title {
+  padding-top: 10px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1rem;
+}
+.video-information {
+  margin-left: 20px;
+}
+.avatar-user {
+  width: 75px;
+  height: 75px;
+}
+.video-info {
+  margin: 20px;
+}
+.text-video-info {
+  margin: 20px;
+}
+.video-info-p {
+  color: gray;
+  font-size: 14px;
+}
+.video-info-title {
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 1em;
+}
+.card-video {
+  background-color: blue;
+  margin: 30px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  background-image: url("images/video.jpeg");
+  background-size: contain;
+  height: 450px;
+}
+.star {
+  color: #efc07a;
+  font-size: 12px;
+}
+.card-text {
+  padding-top: 10px;
+  font-size: 0.8em;
+  color: gray;
+  text-align: justify;
+}
+.card-custom {
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.buttom-link {
+    text-decoration: none;
+    font-size: 16px;
+    color: gray;
+}
+.filter {
+  background-color: #ffffff;
+  width: 50px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+}
